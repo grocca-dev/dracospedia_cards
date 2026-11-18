@@ -1,0 +1,61 @@
+h1, h2, h3, h4 {
+    color: white;
+    display: flex;
+}
+
+.home-title {
+    display: flex;
+    justify-content: center;
+    background-color: purple;
+    border-radius:50%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+    
+}
+
+p {
+    color: white;
+    background: purple;
+}
+
+body {
+    background-image: url("https://64.media.tumblr.com/44e65b50bf2a61d2d7b77876606ea48d/41724d152ff74b59-52/s2048x3072_c1198,0,98750,100000/3f8c23db71ae6d1df42d875f23149021b0dc5086.jpg");
+}
+
+.dragon_img {
+    max-width: 100%;
+    max-height: 100%
+}
+
+li {
+    color: white;
+}
+
+ul {
+    color: white;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+
+.card {
+    max-width: auto;
+    max-height: auto;
+    background-color: rgb(82, 28, 133);
+    margin: 10px;
+    padding: 0 auto;
+    border-color: blueviolet;
+    text-align: center;
+
+
+}
+
+.card-title {
+    justify-content: center;
+}
