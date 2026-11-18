@@ -29,6 +29,8 @@ body {
 
 li {
     color: white;
+    list-style-type: none;
+    height: 30px;
 }
 
 ul {
@@ -38,6 +40,7 @@ ul {
 .cards {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 20px;
     padding: 10px;
     max-width: 100%;
@@ -45,6 +48,7 @@ ul {
 
 
 .card {
+    width: 100%;
     max-width: auto;
     max-height: auto;
     background-color: rgb(82, 28, 133);
@@ -52,8 +56,6 @@ ul {
     padding: 0 auto;
     border-color: blueviolet;
     text-align: center;
-
-
 }
 
 .card-title {
