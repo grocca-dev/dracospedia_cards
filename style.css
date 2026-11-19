@@ -6,7 +6,7 @@ h1, h2, h3, h4 {
 .home-title {
     display: flex;
     justify-content: center;
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0.5);
     border-radius:50%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     
@@ -16,10 +16,10 @@ h1, h2, h3, h4 {
     }
 
 p {
-    color: white;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
-    background: purple;
+    background: rgba(128, 0, 128, 0.5);
 }
 
 body {
@@ -27,22 +27,29 @@ body {
 }
 
 .dragon_img {
+    display: block;
+    margin: auto;
     max-width: 200px;
     max-height: 200px;
-
 }
 
 .dragon_img_sun {
+    display: block;
+    margin: auto;
     max-width: 200px;
     max-height: 200px;
 }
 
 .dragon_img_moon {
+    display: block;
+    margin: auto;
     max-width: 200px;
     max-height: 200px;
 }
 
 .dragon_img_star {
+    display: block;
+    margin: auto;
     max-width: 200px;
     max-height: 200px;
 }
@@ -59,25 +66,47 @@ ul {
 
 .cards {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
     margin: 20px;
     padding: 10px;
     max-width: 100%;
 }
 
-
 .card {
     width: 100%;
-    max-width: auto;
+    max-width: 250px;
     max-height: auto;
-    background-color: rgb(82, 28, 133);
-    border: 1px solid white;
+    background-color: rgb(0, 0, 0);
+    border: 3px solid white;
+    border-radius: 10%;
+    box-shadow: 20%;
+    border-style: ridge;
     margin: 10px;
-    padding: 1px;
     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cosmic {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+#solar {
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+#lunar {
+background-color: rgba(128, 128, 128, 0.507);
+}
+
+#stellar {
+    background-color: rgba(153, 205, 50, 0.5);
 }
 
 .card-title {
     justify-content: center;
+}
+
+.card:hover {
+    transition: 0.5s;
+    transform: scale(1.05) ;
 }
