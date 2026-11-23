@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
+    <script src="script.py"></script>
     <title>Dragon Spatial</title>
 </head>
 <body>
     <h2 class="home-title">Dracospedia</h2>
     <h3 class="title-section">Ma collection de dragons</h2>
-    
+
+    <form method="post">
+        <button type="submit">Afficher une anecdote</button>
+        </form>
+
+        <p>{{ texte }}</p>
+
+        <!-- {% if texte %}
+            <p>Anecdote :{{ texte }}</p>
+        {% endif %} -->
+
     <div class="cards">
     <div class="card" id="cosmic">
         <h3 class="card-title">Dragon Cosmique</h3>
